@@ -39,10 +39,10 @@ select {
 .btn{
     margin-top: 3rem;
     background: red;
-    padding: .2rem;
+    padding: .4rem .6rem;
     border-radius: 3px;
     text-transform: capitalize;
-    font-size: 1.3rem;
+    font-size: 1rem;
     display: inline;
     cursor: pointer;
 }
