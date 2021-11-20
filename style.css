@@ -125,4 +125,8 @@ input{
     .lesser{
         font-size: .8rem;
     }
+    .btn1{
+        width: 30vw;
+
+    }
 }
