@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -17,6 +18,7 @@ header{
     position: absolute;
     top: 2%;
     left: 2%;
+    font-weight: 600;
     font: 2rem;
     text-transform: uppercase;
     color: red;
@@ -37,7 +39,7 @@ select {
 .btn{
     margin-top: 3rem;
     background: red;
-    padding: .4rem;
+    padding: .2rem;
     border-radius: 3px;
     text-transform: capitalize;
     font-size: 1.3rem;
@@ -45,7 +47,7 @@ select {
     cursor: pointer;
 }
 .main{
-    width: 50vw;
+    width: 60vw;
     display: flex;
     text-align: center;
     align-items: center;
@@ -69,6 +71,7 @@ select {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 0;
+
 }
 
 input{
@@ -82,9 +85,44 @@ input{
 .btn1{
     background: red;
     padding: 1rem;
+    height: 100%;
+    width: 100%;
     margin-left: 0%;
     border-radius: 3px;
     text-transform: capitalize;
-    font-size: 1.3rem;
+    font-size: 1rem;
     cursor: pointer;
+}
+
+@media (max-width: 989px) {
+    .tag-line{
+        font-size: 2.9rem;
+    }
+    .less{
+    font-size: 1.7rem;
+    }
+    .lesser{
+        font-size: 1.1rem;
+    }
+    .space{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn1{
+        width: 20vw;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 530px) {
+    .tag-line{
+        font-size: 1.9rem;
+    }
+    .less{
+    font-size: 1rem;
+    }
+    .lesser{
+        font-size: .8rem;
+    }
 }
